@@ -9,6 +9,7 @@ TorPhantom enables users to route traffic through multiple nodes, masking their 
 - **Automated Tasks:** Schedule and execute network operations with privacy guarantees.
 - **Configurable:** Easily customize connection settings and behavior.
 - **Cross-Platform:** Works on major operating systems.
+- **Now in Python 3
 
 ## Use Cases
 - Web scraping or crawling anonymously
