@@ -1,110 +1,31 @@
-# TorPhantom
-## Version 1.0 By J 
-A fork of [TorGhost](https://github.com/susmithHCK/torghost), a little utilitly used to route all traffic through TOR.
-Updated to Python3
+# TorPhantom: Anonymous Network Automation
 
-Currently depends on macchanger and tor.
-must systemctl enable tor.service
+## What is TorPhantom?
+TorPhantom is a powerful tool designed to automate network tasks while preserving anonymity. Leveraging the Tor network.
+TorPhantom enables users to route traffic through multiple nodes, masking their identity and location.
 
-This script spoofs your mac address, and then routes all traffic through the TOR network. It is currently a WIP.
+## Key Features
+- **Seamless Tor Integration:** Effortlessly connect and route traffic through the Tor network.
+- **Automated Tasks:** Schedule and execute network operations with privacy guarantees.
+- **Configurable:** Easily customize connection settings and behavior.
+- **Cross-Platform:** Works on major operating systems.
 
+## Use Cases
+- Web scraping or crawling anonymously
+- Privacy-focused research
+- Secure data fetching from public sources
+- Bypassing censorship and geo-restrictions
 
-If you are aware of another solution to this problem please submit a pull request!
+## Getting Started
+1. Clone the repo:  
+   `git clone https://github.com/Esgrouviado/TorPhantom.git`
+2. Follow the setup instructions in the README.
+3. Run your first anonymous task!
 
-**TorPhantom is a tool,inslaled by you, and users are responsible for any risks or activities performed while using it.**
+## Why TorPhantom?
+Protect your identity, automate networking, and explore the internet freely.
 
+**Try TorPhantom today and take control of your privacy!**
 
-1. More Linux support (currently install script is for Debian based distros only)
-2. Python 3 updated
-
-## Linux:
-
-#### Debian/Ubuntu:
-
-```sh
-chmod +x install.sh
-./install.sh
-```
-
-#### Arch:
-
-```sh
-chmod +x install-pac.sh
-./install-pac.sh
-```
-
-
-
-# TorPhantom
-
-## Overview
-TorPhantom is a utility that routes all network traffic through the TOR network and spoofs your MAC address for enhanced privacy. It is a Python 3 fork of [TorGhost](https://github.com/susmithHCK/torghost).
-
-**Status:** BETA – Use at your own risk. You are responsible for any activities performed while using TorPhantom.
-
-## Features
-- Routes all traffic through TOR
-- Spoofs MAC address using macchanger
-- Supports multiple Linux distributions
-
-## Dependencies
-- Python 3
-- macchanger
-- tor
-
-**Note:** You must enable the tor service:
-```sh
-sudo systemctl enable tor.service
-sudo systemctl start tor.service
-```
-
-## Installation
-
-### Debian/Ubuntu
-```sh
-chmod +x install.sh
-./install.sh
-```
-
-### Arch
-```sh
-chmod +x install-pac.sh
-./install-pac.sh
-```
-
-### RHEL/CentOS/Fedora
-```sh
-chmod +x install-rpm.sh
-./install-rpm.sh
-```
-
-## Usage
-
-```sh
-  _______         _____  _                 _                  
- |__   __|       |  __ \| |               | |                 
-        | | ___  _ __| |__) | |__   __ _ _ __ | |_ ___  _ __ ___  
-        | |/ _ \| '__|  ___/| '_ \ / _` | '_ \| __/ _ \| '_ ` _ \
-        | | (_) | |  | |    | | | | (_| | | | | || (_) | | | | | |
-        |_|\___/|_|  |_|    |_| |_|\__,_|_| |_|\__\___/|_| |_| |_|
-        v1.0 By J 
-
-USAGE:
-        torphantom start                # Start TorPhantom
-        torphantom start -i <interface> # Start with MAC address spoofing
-        torphantom stop                 # Stop TorPhantom
-```
-
-## Roadmap
-- More Linux support (currently install script is for Debian-based distros only)
-- Python 3 updates
-
-## Disclaimer
-TorPhantom is in BETA. You are solely responsible for any risks or activities performed while using this tool, regardless of its development status.
-
-## Contributing
-If you know of another solution or want to improve TorPhantom, please submit a pull request!
-
-## Support
-For issues or suggestions, open an issue or submit a pull request on GitHub.
-
+---
+[GitHub Repository](https://github.com/Esgrouviado/TorPhantom)
