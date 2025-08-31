@@ -11,7 +11,7 @@ This script spoofs your mac address, and then routes all traffic through the TOR
 
 If you are aware of another solution to this problem please submit a pull request!
 
-**TorPhantom is a tool,inslaled by you, and users are responsible for any risks or activities performed while using it.**
+**TorPhantom is a tool,installed by you, and users are responsible for any risks or activities performed while using it.**
 
 
 1. More Linux support (currently install script is for Debian based distros only)
@@ -40,7 +40,7 @@ chmod +x install-pac.sh
 ## Overview
 TorPhantom is a utility that routes all network traffic through the TOR network and spoofs your MAC address for enhanced privacy. It is a Python 3 fork of [TorGhost](https://github.com/susmithHCK/torghost).
 
-**Status:** BETA – Use at your own risk. You are responsible for any activities performed while using TorPhantom.
+**Use at your own risk. You are responsible for any activities performed while using TorPhantom.
 
 ## Features
 - Routes all traffic through TOR
